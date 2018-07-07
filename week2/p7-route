@@ -1,0 +1,11 @@
+Script started on Thu 05 Jul 2018 08:36:01 PM UTC
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ ip route q[K
+default via 10.0.5.1 dev eth0 
+10.0.5.0/24 dev eth0  proto kernel  scope link  src 10.0.5.189 
+]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thu 05 Jul 2018 08:36:21 PM UTC

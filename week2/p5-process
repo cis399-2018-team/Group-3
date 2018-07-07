@@ -1,0 +1,33 @@
+Script started on Thu 05 Jul 2018 08:26:57 PM UTC
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ top
+[?1h=[?25l[H[2J(B[mtop - 20:27:00 up 1 day, 21:16,  3 users,  load average: 0.00, 0.00, 0.00(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 115 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 114 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m   498436 (B[m[39;49mtotal,(B[m[39;49m[1m    11932 (B[m[39;49mfree,(B[m[39;49m[1m    57936 (B[m[39;49mused,(B[m[39;49m[1m   428568 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m        0 (B[m[39;49mtotal,(B[m[39;49m[1m        0 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m   400872 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND      (B[m[39;49m[K
+(B[m    1 root      20   0   37792   4924   3104 S  0.0  1.0   0:03.12 systemd      (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd     (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S  0.0  0.0   0:00.23 ksoftirqd/0  (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S  0.0  0.0   0:00.18 rcu_sched    (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_bh       (B[m[39;49m[K
+(B[m    9 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0  (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S  0.0  0.0   0:00.67 watchdog/0   (B[m[39;49m[K
+(B[m   11 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs    (B[m[39;49m[K
+(B[m   12 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 netns        (B[m[39;49m[K
+(B[m   13 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 perf         (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenwatch     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 xenbus       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.02 khungtaskd   (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 writeback    (B[m[39;49m[K
+(B[m   19 root      25   5       0      0      0 S  0.0  0.0   0:00.00 ksmd         (B[m[39;49m[K
+(B[m   20 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 crypto       (B[m[39;49m[K[?1l>[25;1H
+[?12l[?25h[K]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thu 05 Jul 2018 08:27:07 PM UTC

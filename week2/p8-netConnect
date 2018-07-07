@@ -1,0 +1,13 @@
+Script started on Thu 05 Jul 2018 08:32:17 PM UTC
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ netstat -rn
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+0.0.0.0         10.0.5.1        0.0.0.0         UG        0 0          0 eth0
+10.0.5.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
+]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ sxit[K[K[K[Kexit
+exit
+
+Script done on Thu 05 Jul 2018 08:32:34 PM UTC

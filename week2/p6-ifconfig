@@ -1,0 +1,27 @@
+Script started on Thu 05 Jul 2018 08:29:57 PM UTC
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ ifconfig 
+eth0      Link encap:Ethernet  HWaddr 0a:2d:25:36:ff:26  
+          inet addr:10.0.5.189  Bcast:10.0.5.255  Mask:255.255.255.0
+          inet6 addr: fe80::82d:25ff:fe36:ff26/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:66882 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:24849 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:78346176 (78.3 MB)  TX bytes:2698848 (2.6 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:192 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:192 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:14456 (14.4 KB)  TX bytes:14456 (14.4 KB)
+
+]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thu 05 Jul 2018 08:30:07 PM UTC
