@@ -1,0 +1,7 @@
+To view the public IP of an instance, follow these steps:
+
+1. Log onto Amazon EC2 console.
+2. On the leading(Left hand) side of the page, under "INSTANCES" navigational header, select "Instances".
+3. Select the desired instance.
+4. At the bottom of the page, a menu appears with a tab navigational menu.  Select "Description" tab.
+5. Alongside the "IPv4 Public IP" label is displayed the public IP address of the instance.
