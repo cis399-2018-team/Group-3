@@ -1,8 +1,5 @@
-Script started on Thu 05 Jul 2018 08:39:00 PM UTC
-To run a command as administrator (user "root"), use "sudo <command>".
-See "man sudo_root" for details.
-
-]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ exitip route [5Pexit[Kdpkg --get-selections | grep -v deinstall
+Script started on Sun 08 Jul 2018 09:39:27 PM UTC
+]0;ubuntu@ip-10-0-5-58: ~[01;32mubuntu@ip-10-0-5-58[00m:[01;34m~[00m$ sudo dpkg --get-selecto[Kions
 accountsservice					install
 acl						install
 acpid						install
@@ -457,7 +454,7 @@ xml-core					install
 xz-utils					install
 zerofree					install
 zlib1g:amd64					install
-]0;ubuntu@ip-10-0-5-189: ~[01;32mubuntu@ip-10-0-5-189[00m:[01;34m~[00m$ exit
+]0;ubuntu@ip-10-0-5-58: ~[01;32mubuntu@ip-10-0-5-58[00m:[01;34m~[00m$ exit
 exit
 
-Script done on Thu 05 Jul 2018 08:39:29 PM UTC
+Script done on Sun 08 Jul 2018 09:39:39 PM UTC
