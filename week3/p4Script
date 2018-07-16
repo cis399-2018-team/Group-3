@@ -1,0 +1,14 @@
+Script started on Mon 16 Jul 2018 12:48:07 AM UTC
+]0;root@ip-10-0-5-58: ~/.ssh[01;32mroot@ip-10-0-5-58[00m:[01;34m~/.ssh[00m# rm authorized_keys
+]0;root@ip-10-0-5-58: ~/.ssh[01;32mroot@ip-10-0-5-58[00m:[01;34m~/.ssh[00m# puppet agent -t
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-5-58.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1531701866'[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[alonzoCIS399]/ensure: created[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[ktb11]/ensure: created[0m
+[mNotice: Finished catalog run in 0.06 seconds[0m
+]0;root@ip-10-0-5-58: ~/.ssh[01;32mroot@ip-10-0-5-58[00m:[01;34m~/.ssh[00m# sc[K[Kexit
+exit
+
+Script done on Mon 16 Jul 2018 12:48:29 AM UTC

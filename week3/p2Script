@@ -1,0 +1,14 @@
+Script started on Mon 16 Jul 2018 12:33:25 AM UTC
+]0;root@ip-10-0-5-58: /etc/puppet/modules[01;32mroot@ip-10-0-5-58[00m:[01;34m/etc/puppet/modules[00m# exitapt list --installedexit[K[Kservice sshd stop
+]0;root@ip-10-0-5-58: /etc/puppet/modules[01;32mroot@ip-10-0-5-58[00m:[01;34m/etc/puppet/modules[00m# puppet agent -t
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-5-58.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1531700407'[0m
+[mNotice: /Stage[main]/Sshd/Service[sshd]/ensure: ensure changed 'stopped' to 'running'[0m
+[0;32mInfo: /Stage[main]/Sshd/Service[sshd]: Unscheduling refresh on Service[sshd][0m
+[mNotice: Finished catalog run in 0.07 seconds[0m
+]0;root@ip-10-0-5-58: /etc/puppet/modules[01;32mroot@ip-10-0-5-58[00m:[01;34m/etc/puppet/modules[00m# exit
+exit
+
+Script done on Mon 16 Jul 2018 12:33:54 AM UTC

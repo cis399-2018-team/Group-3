@@ -1,0 +1,20 @@
+Script started on Mon 16 Jul 2018 12:37:15 AM UTC
+]0;root@ip-10-0-5-58: /etc/ssh[01;32mroot@ip-10-0-5-58[00m:[01;34m/etc/ssh[00m# rm sshd_config 
+]0;root@ip-10-0-5-58: /etc/ssh[01;32mroot@ip-10-0-5-58[00m:[01;34m/etc/ssh[00m# puppet agent -t
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-5-58.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1531700407'[0m
+[mNotice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/ensure: defined content as '{md5}8383ec31cdeb8b721a56d1e3ea7eb8d5'[0m
+[0;32mInfo: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[sshd][0m
+[mNotice: /Stage[main]/Sshd/Service[sshd]: Triggered 'refresh' from 1 events[0m
+[mNotice: Finished catalog run in 0.09 seconds[0m
+]0;root@ip-10-0-5-58: /etc/ssh[01;32mroot@ip-10-0-5-58[00m:[01;34m/etc/ssh[00m# ls
+moduli       ssh_host_dsa_key        ssh_host_ed25519_key      ssh_import_id
+p3Script     ssh_host_dsa_key.pub    ssh_host_ed25519_key.pub
+ssh_config   ssh_host_ecdsa_key      ssh_host_rsa_key
+sshd_config  ssh_host_ecdsa_key.pub  ssh_host_rsa_key.pub
+]0;root@ip-10-0-5-58: /etc/ssh[01;32mroot@ip-10-0-5-58[00m:[01;34m/etc/ssh[00m# exit
+exit
+
+Script done on Mon 16 Jul 2018 12:37:58 AM UTC
