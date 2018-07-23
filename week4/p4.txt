@@ -1,0 +1,1 @@
+When one instance is turned off or the service has stopped, the load balancer will continue to serve web pages. When both instances are turned off, the the load balancer has no servers in which to serve web pages, so the web browser displays a HTTP ERROR 504. Then when the service or instance is turned back, it should return to serving webpages.

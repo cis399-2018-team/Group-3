@@ -1,0 +1,12 @@
+Sample logs from ip-10-0-5-58
+
+10.0.5.145 - - [23/Jul/2018:19:56:07 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.5.77 - - [23/Jul/2018:19:56:19 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.5.145 - - [23/Jul/2018:19:56:37 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.5.77 - - [23/Jul/2018:19:56:49 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+
+Sample logs from ip-10-0-5-169
+
+10.0.5.145 - - [23/Jul/2018:19:56:37 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.5.77 - - [23/Jul/2018:19:56:49 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.5.145 - - [23/Jul/2018:19:57:07 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
