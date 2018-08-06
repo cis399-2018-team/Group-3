@@ -1,0 +1,69 @@
+Return-Path: <010101651053e4eb-3ec25f9e-9219-4440-8658-1031ce94fac2-000000@us-west-2.amazonses.com>
+Received: from a27-26.smtp-out.us-west-2.amazonses.com (a27-26.smtp-out.us-west-2.amazonses.com [54.240.27.26])
+	by smtp.uoregon.edu (8.14.4/8.14.4) with ESMTP id w76HewZe015696
+	(version=TLSv1/SSLv3 cipher=AES128-SHA256 bits=128 verify=NOT)
+	for <alonzoa@uoregon.edu>; Mon, 6 Aug 2018 10:40:59 -0700
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1533577258;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=kHxUkyRsfD8hS/dozfMvonDzsYkwh09ilmz87a2u7Us=;
+	b=bT8kPfF7TlbrEhuDnBCoc/EmcgyZLd2OU8liOP6IcI26KU/85y69ESFqiMjWko+Q
+	NwUH9QDs8Ugt97Ex9DOpljIjGyUf0n5W7JonkDLAkHqOTVMUHP9TkQzrXuyzqRHDO0X
+	8AeCQ7nzy4gcD+i03vYru9ZtJSu6MA3sh8MM59nc=
+Date: Mon, 6 Aug 2018 17:40:58 +0000
+From: AWS Notifications <no-reply@sns.amazonaws.com>
+To: alonzoa@uoregon.edu
+Message-ID: <010101651053e4eb-3ec25f9e-9219-4440-8658-1031ce94fac2-000000@us-west-2.amazonses.com>
+Subject: ALARM: "awsec2-i-092c7ec244b379702-CPU-Utilization" in US West
+ (Oregon)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+x-amz-sns-message-id: 2ece16d8-0b9d-5280-8f07-453a81f70e94
+x-amz-sns-subscription-arn: arn:aws:sns:us-west-2:006170570170:Group3:2fd7461f-8ed8-44b4-9eb8-30cca7e364a5
+X-SES-Outgoing: 2018.08.06-54.240.27.26
+Feedback-ID: 1.us-west-2.c55J8LO2Yl1R0Ht+ysI6VjzUH6Cvo3dHPF80AUVC/G8=:AmazonSES
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:,, definitions=2018-08-06_08:,,
+ signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 suspectscore=10 malwarescore=0
+ phishscore=0 bulkscore=0 spamscore=0 mlxscore=0 mlxlogscore=999
+ adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.0.1-1807170000 definitions=main-1808060183
+
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-092c7ec244b379702-CPU-Utilization" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [0.43333333333339397 (06/08/18 17:35:00)] was greater than or equal to the threshold (0.4)." at "Monday 06 August, 2018 17:40:58 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-092c7ec244b379702-CPU-Utilization
+
+Alarm Details:
+- Name:                       awsec2-i-092c7ec244b379702-CPU-Utilization
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [0.43333333333339397 (06/08/18 17:35:00)] was greater than or equal to the threshold (0.4).
+- Timestamp:                  Monday 06 August, 2018 17:40:58 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 0.4 for 300 seconds. 
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          CPUUtilization
+- Dimensions:                          [InstanceId = i-092c7ec244b379702]
+- Period:                              300 seconds
+- Statistic:                           Average
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Group3]
+- INSUFFICIENT_DATA: 
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-west-2.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-west-2:006170570170:Group3:2fd7461f-8ed8-44b4-9eb8-30cca7e364a5&Endpoint=alonzoa@uoregon.edu
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
